@@ -1,0 +1,87 @@
+# depslib dependency file v1.0
+1482348514 source:d:\github\pong\sources\ball.cpp
+	"../headers/ball.h"
+	"../headers/dimensions.h"
+	<stdlib.h>
+	<math.h>
+
+1482347338 d:\github\pong\headers\ball.h
+
+1482347920 d:\github\pong\headers\dimensions.h
+
+1482348547 source:d:\github\pong\sources\dimensions.cpp
+	"../headers/dimensions.h"
+
+1482349396 source:d:\github\pong\sources\draw.cpp
+	"../headers/draw.h"
+	"../headers/window_size.h"
+	"../headers/window_functions.h"
+	"../headers/colours.h"
+	"../headers/dimensions.h"
+	<math.h>
+
+1482315799 d:\github\pong\headers\draw.h
+	"ball.h"
+	<vector>
+	<GLFW/glfw3.h>
+
+1480674798 d:\github\pong\include\glfw\glfw3.h
+	<stddef.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<GLES3/gl3.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1480674798 d:\github\pong\headers\window_size.h
+
+1482316691 d:\github\pong\headers\window_functions.h
+	<string>
+	<queue>
+	<vector>
+	<GLFW/glfw3.h>
+
+1482315345 d:\github\pong\headers\colours.h
+
+1482316124 source:d:\github\pong\sources\main.cpp
+	"../headers/run.h"
+	"../headers/window_functions.h"
+	<iostream>
+	<stdlib.h>
+
+1482345733 d:\github\pong\headers\run.h
+	"ball.h"
+	<vector>
+	<GLFW/glfw3.h>
+
+1482344931 source:d:\github\pong\sources\window_functions.cpp
+	"../headers/window_functions.h"
+	"../headers/window_size.h"
+	<iostream>
+	<queue>
+
+1480674798 source:d:\github\pong\sources\window_size.cpp
+	"../headers/window_size.h"
+
+1482349376 source:d:\github\pong\sources\run.cpp
+	"../headers/run.h"
+	"../headers/draw.h"
+	"../headers/window_functions.h"
+	"../headers/dimensions.h"
+	"../headers/ball.h"
+	<iostream>
+	<fstream>
+	<vector>
+	<string>
+	<algorithm>
+	<stdlib.h>
+	<conio.h>
+	<chrono>
+
+1482315393 source:d:\github\pong\sources\colours.cpp
+	"../headers/colours.h"
+
